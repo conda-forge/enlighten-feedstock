@@ -5,11 +5,13 @@ Home: https://python-enlighten.readthedocs.io/en/stable/
 
 Package license: MPL-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/enlighten-feedstock/blob/master/LICENSE.txt)
 
 Summary: Enlighten Progress Bar
 
+Development: https://github.com/Rockhopper-Technologies/enlighten
 
+Documentation: https://python-enlighten.readthedocs.io/en/stable/
 
 Current build status
 ====================
