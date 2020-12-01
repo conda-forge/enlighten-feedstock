@@ -10,7 +10,7 @@ source:
   sha256: 35587495c1f9bd87c1ce800f5180417f95617c2b28287dd2d9c433806e992020
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
 
@@ -26,6 +26,10 @@ requirements:
 test:
   imports:
     - enlighten
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://python-enlighten.readthedocs.io/en/stable/
