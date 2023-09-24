@@ -1,5 +1,5 @@
 {% set name = "enlighten" %}
-{% set version = "1.11.2" %}
+{% set version = "1.12.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9284861dee5a272e0e1a3758cd3f3b7180b1bd1754875da76876f2a7f46ccb61
+  sha256: 6b8af6d071b5de05013a38e80e168726dc6ffb2858de817f77e415f85b2ce819
 
 build:
   number: 0
